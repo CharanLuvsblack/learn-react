@@ -1,0 +1,28 @@
+.section {
+  display: flex;
+  width: 100%;
+  height: 93.2vh;
+  background-image: linear-gradient(to right, #42275a, #734b6d);
+}
+.sectionLeft {
+  flex: 2;
+  color: white;
+  font-size: 4rem;
+  padding: 35% 5%;
+  /* background-color: rgb(255, 174, 174); */
+}
+.sectionRight {
+  flex: 1;
+  display: flex;
+  font-size: 2rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 35% 5%;
+  /* background-color: rgb(171, 193, 255); */
+}
+.link {
+  background-color: #bd83ff22;
+  margin-bottom: 2rem;
+  border-radius: 5rem;
+  color: #fff;
+}

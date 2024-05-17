@@ -2,10 +2,14 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
+    <>
+      <div className="section">
+        <div className="sectionLeft">
+          <span>Welcome Home!</span>
+        </div>
+        <div className="sectionRight"></div>
+      </div>
+    </>
   );
 };
-
 export default Home;
