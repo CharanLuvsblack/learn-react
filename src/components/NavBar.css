@@ -1,0 +1,35 @@
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+.brand {
+  display: block;
+  color: lightskyblue;
+  font-size: large;
+  font-weight: bolder;
+  padding: 0.5rem 1rem;
+}
