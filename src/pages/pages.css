@@ -1,14 +1,31 @@
 .section {
   display: flex;
   width: 100%;
-  height: 93.2vh;
+  height: 100vh;
   background-image: linear-gradient(to right, #42275a, #734b6d);
+}
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+  }
+}
+.title {
+  display: flex;
+  height: 92.3vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.titleText {
+  font-size: 4rem;
+  color: #fff;
 }
 .sectionLeft {
   flex: 2;
   color: white;
   font-size: 4rem;
-  padding: 35% 5%;
+  padding-top: 15rem;
+  padding-left: 5rem;
   /* background-color: rgb(255, 174, 174); */
 }
 .sectionRight {
@@ -17,7 +34,7 @@
   font-size: 2rem;
   flex-direction: column;
   align-items: center;
-  padding: 35% 5%;
+  padding-top: 15rem;
   /* background-color: rgb(171, 193, 255); */
 }
 .link {

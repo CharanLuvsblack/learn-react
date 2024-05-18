@@ -8,7 +8,11 @@ const Contact = () => {
       link: 'https://www.instagram.com/charan_un.offl/',
       text: 'Instagram',
     },
-    { id: 2, link: 'https://x.com/Charan_unoffl', text: 'Twitter / X' },
+    {
+      id: 2,
+      link: 'https://x.com/Charan_unoffl',
+      text: 'Twitter / X',
+    },
   ];
   return (
     <>
@@ -20,7 +24,7 @@ const Contact = () => {
           {links.map((l) => (
             <a
               className="link"
-              key={l.key}
+              key={l.id}
               href={l.link}
               target="_blank"
               rel="noreferrer"

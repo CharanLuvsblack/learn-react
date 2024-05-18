@@ -7,7 +7,11 @@ const About = () => {
       link: 'https://github.com/CharanLuvsblack',
       text: 'GitHub',
     },
-    { id: 2, link: 'https://www.linkedin.com/in/charanhv/', text: 'LinkedIn' },
+    {
+      id: 2,
+      link: 'https://www.linkedin.com/in/charanhv/',
+      text: 'LinkedIn',
+    },
   ];
   return (
     <>
@@ -19,7 +23,7 @@ const About = () => {
           {links.map((l) => (
             <a
               className="link"
-              key={l.key}
+              key={l.id}
               href={l.link}
               target="_blank"
               rel="noreferrer"

@@ -4,10 +4,9 @@ const Home = () => {
   return (
     <>
       <div className="section">
-        <div className="sectionLeft">
-          <span>Welcome Home!</span>
+        <div className="title">
+          <p className="titleText">Welcome Home!</p>
         </div>
-        <div className="sectionRight"></div>
       </div>
     </>
   );
