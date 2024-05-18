@@ -2,44 +2,48 @@
   display: flex;
   width: 100%;
   height: 100vh;
+  justify-content: center;
   background-image: linear-gradient(to right, #42275a, #734b6d);
 }
 @media (max-width: 768px) {
-  .section {
-    flex-direction: column;
-  }
+  /* nothing as of now */
 }
 .title {
   display: flex;
+  flex-direction: column;
   height: 92.3vh;
-  width: 100%;
-  align-items: center;
+  width: 80%;
+  align-items: start;
   justify-content: center;
 }
-.titleText {
-  font-size: 4rem;
+.titleText,
+.subtitleText {
+  font-size: 3rem;
   color: #fff;
+  padding: 0%;
+  margin: 0%;
+}
+.subtitleText {
+  font-size: 2rem;
 }
 .sectionLeft {
-  flex: 2;
+  flex: 1;
   color: white;
-  font-size: 4rem;
+  font-size: 2rem;
   padding-top: 15rem;
   padding-left: 5rem;
-  /* background-color: rgb(255, 174, 174); */
 }
 .sectionRight {
-  flex: 1;
+  flex: 2;
   display: flex;
-  font-size: 2rem;
   flex-direction: column;
   align-items: center;
-  padding-top: 15rem;
-  /* background-color: rgb(171, 193, 255); */
+  padding: 15rem 5rem;
 }
-.link {
+.card {
   background-color: #bd83ff22;
   margin-bottom: 2rem;
-  border-radius: 5rem;
+  border-radius: 2rem;
+  padding: 1rem;
   color: #fff;
 }

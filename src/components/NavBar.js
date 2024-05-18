@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="brand">
-        <Link to="/">Charan H V</Link>
+        <Link to="/">Chilltopia</Link>
       </div>
       <div className="menu-icon" onClick={toggleMenu}>
         <i className={isOpen ? 'fas fa-times' : 'fas fa-bars'}></i>

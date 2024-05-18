@@ -1,36 +1,19 @@
 import React from 'react';
 import './pages.css';
 const About = () => {
-  let links = [
-    {
-      id: 1,
-      link: 'https://github.com/CharanLuvsblack',
-      text: 'GitHub',
-    },
-    {
-      id: 2,
-      link: 'https://www.linkedin.com/in/charanhv/',
-      text: 'LinkedIn',
-    },
-  ];
   return (
     <>
       <div className="section">
-        <div className="sectionLeft">
-          <span>About Us!</span>
-        </div>
-        <div className="sectionRight">
-          {links.map((l) => (
-            <a
-              className="link"
-              key={l.id}
-              href={l.link}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {l.text}
-            </a>
-          ))}
+        <div className="title">
+          <p className="titleText">Our Story!</p>
+          <p className="subtitleText">
+            Chilltopia Ice Creamery was born from a dream of creating a
+            fantastical escape where ice cream is more than just a treat—it's an
+            experience. Founded by a group of passionate ice cream aficionados,
+            we set out to craft unique and delightful flavors that transport you
+            to a whimsical world with every bite. At Chilltopia, we believe in
+            quality, creativity, and a touch of magic.
+          </p>
         </div>
       </div>
     </>

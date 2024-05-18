@@ -17,21 +17,12 @@ const Contact = () => {
   return (
     <>
       <div className="section">
-        <div className="sectionLeft">
-          <span>Let's have a Talk!</span>
-        </div>
-        <div className="sectionRight">
-          {links.map((l) => (
-            <a
-              className="link"
-              key={l.id}
-              href={l.link}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {l.text}
-            </a>
-          ))}
+        <div className="title">
+          <p className="titleText">Get in Touch</p>
+          <p className="subtitleText">
+            We’d love to hear from you! Whether you have a question, feedback,
+            or just want to share your Chilltopia experience, reach out to us.
+          </p>
         </div>
       </div>
     </>

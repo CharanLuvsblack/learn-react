@@ -5,7 +5,11 @@ const Home = () => {
     <>
       <div className="section">
         <div className="title">
-          <p className="titleText">Welcome Home!</p>
+          <p className="titleText">Discover a World of Flavor at Chilltopia!</p>
+          <p className="subtitleText">
+            Indulge in our magical creations and let your taste buds embark on
+            an unforgettable adventure.
+          </p>
         </div>
       </div>
     </>
